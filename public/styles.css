@@ -1,0 +1,43 @@
+blockquote {
+    font-family: "nta", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #0b0c0c;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    clear: both;
+    border-left: 10px solid #bfc1c3; }
+    @media print {
+      .govuk-inset-text, .gov-uk-dynamic-content blockquote {
+        font-family: sans-serif; } }
+    @media (min-width: 40.0625em) {
+      .govuk-inset-text, .gov-uk-dynamic-content blockquote {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579; } }
+    @media print {
+      .govuk-inset-text, .gov-uk-dynamic-content blockquote {
+        font-size: 14pt;
+        line-height: 1.15; } }
+    @media print {
+      .govuk-inset-text, .gov-uk-dynamic-content blockquote {
+        color: #000000; } }
+    @media (min-width: 40.0625em) {
+      .govuk-inset-text, .gov-uk-dynamic-content blockquote {
+        margin-top: 30px; } }
+    @media (min-width: 40.0625em) {
+      .govuk-inset-text, .gov-uk-dynamic-content blockquote {
+        margin-bottom: 30px; } }
+    .govuk-inset-text :first-child, .gov-uk-dynamic-content blockquote :first-child {
+      margin-top: 0; }
+    .govuk-inset-text :only-child, .gov-uk-dynamic-content blockquote :only-child,
+    .govuk-inset-text :last-child,
+    .gov-uk-dynamic-content blockquote :last-child {
+      margin-bottom: 0; 
+}
